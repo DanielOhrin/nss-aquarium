@@ -1,0 +1,137 @@
+#head__martin {
+    font-size: 5em;
+    text-align: center;
+}
+
+.section__titles {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 2.5em;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.section__fish {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    flex: 1 1 auto;
+}
+
+.div__fish--info {
+    flex: 3 1 auto;
+    align-self: flex-start;
+}
+
+.div__fish--box {
+    width: 100%;
+    max-height: 140px;
+    border: solid 2.5px gray;
+    display: flex;
+}
+
+.div__fish--childContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1 1 50%;
+    max-height: 135px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aside__fish--quotes {
+    display: flex;
+}
+
+.h3__fishName {
+    margin-bottom: -10px;
+    margin-left: 10px;
+}
+
+.img__fish {
+    flex: 1 3 auto;
+    max-height: 140px;
+    width: 75%;
+}
+
+.section__quotes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    flex: 1 1 auto;
+    margin-top: -1em;
+}
+
+.section__locations {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: -1em;
+    width: auto;
+    flex: 1 1 auto;
+}
+
+hr {
+    opacity: 0;
+}
+
+.div__quote {
+    display: flex;
+    height: 115px;
+    width: 32%;
+    background-image: url(https://a.pinatafarm.com/620x387/7a74cf3f19/inspirational-quote.jpg/m/522x0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 2.5px solid black;
+}
+
+.div__quote p {
+    font-style: italic;
+    opacity: 85%;
+    color: white;
+    font-size: 1.25em;
+}
+
+.div__location {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 30%;
+    margin-bottom: 1em;
+}
+
+.div__location--child {
+    max-height: 115px;
+    flex: 1 1 50%;
+    min-width: 30%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.div__location--child--img {
+    width: 75%;
+}
+
+.img__location--size {
+    width: 100%;
+    max-height: 115px;
+    align-self: center;
+}
+
+.div__location--child ul {
+    margin-top: -1.25em;
+}
+.div__location--child ul li {
+    align-self: flex-start;
+    background-image: url(https://img.icons8.com/tiny-glyph/2x/fish.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 1.2em;
+    list-style-type: none;
+    margin-left: -2.75em;
+}
